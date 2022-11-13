@@ -5,6 +5,7 @@
 }
 body{
     background-color:rgb(114, 113, 141);
+    color:white;
 }
 nav{
     display: flex;
