@@ -13,14 +13,13 @@ nav{
     align-items: center;
     min-height: 8vh;
     background-color: rgb(82, 81, 116);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Racing Sans One', cursive;
+    border-bottom: solid 1.5px rgb(41, 41, 58);
 }
 
 .logo{
-    color: rgb(226, 226, 226);
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px;
+    display:flex;
+
 }
 
 .nav-links{
@@ -39,10 +38,10 @@ nav{
 }
 
 .nav-links a{
-    color: rgb(226, 226, 226);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     letter-spacing: 2px;
-    font-size: 14px;   
+    font-size: 20px;   
     font-weight: bold;
 }
 
@@ -53,13 +52,16 @@ nav{
 .burger div{
     width: 25px;
     height: 2px;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(0, 0, 0);
     margin: 5px;
     transition: all 0.3s ease;
     font-weight: bold;
 }
 
 @media screen and (max-width:768px){
+    nav{
+        font-size: 20px;
+    }
     body{
         overflow-x: hidden;
     }
@@ -67,7 +69,9 @@ nav{
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 8.5vh;
+    top: 8vh;
+    border-top: solid 1.5px black;
+    border-left: solid 1.5px black;
     background-color: rgb(82, 81, 116);
     display: flex;
     flex-direction: column;
