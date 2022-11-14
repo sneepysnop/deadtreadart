@@ -54,12 +54,12 @@ nav{
     background-color: rgb(0, 0, 0);
     margin: 5px;
     transition: all 0.3s ease;
-    font-weight: bold;
+    
 }
 
 @media screen and (max-width:768px){
     nav{
-        font-size: 20px;
+        font-size: 15px;
     }
     body{
         overflow-x: hidden;
